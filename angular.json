@@ -26,8 +26,7 @@
               "src/styles.css"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
-          },
+           },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -58,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-app-of-apps:build"
+            "buildTarget": "angular-app-of-apps:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-app-of-apps:build:production"
+              "buildTarget": "angular-app-of-apps:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-app-of-apps:build"
+            "buildTarget": "angular-app-of-apps:build"
           }
         },
         "test": {
@@ -154,8 +153,7 @@
               "projects/app1/src/styles.css"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
-          },
+           },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -186,18 +184,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app1:build"
+            "buildTarget": "app1:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "app1:build:production"
+              "buildTarget": "app1:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app1:build"
+            "buildTarget": "app1:build"
           }
         },
         "test": {
@@ -282,8 +280,7 @@
               "projects/app2/src/styles.css"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
-          },
+           },
           "configurations": {
             "production": {
               "fileReplacements": [
@@ -314,18 +311,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app2:build"
+            "buildTarget": "app2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "app2:build:production"
+              "buildTarget": "app2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app2:build"
+            "buildTarget": "app2:build"
           }
         },
         "test": {
@@ -388,5 +385,7 @@
       }
     }
   },
-  "defaultProject": "angular-app-of-apps"
+  "cli": {
+    "analytics": false
+  }
 }

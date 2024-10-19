@@ -26,7 +26,7 @@ export class AppModule { }
 
 @NgModule({})
 export class App2SharedModule{
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<App2SharedModule> {
     return {
       ngModule: AppModule,
       providers: providers
