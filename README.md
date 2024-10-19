@@ -1,5 +1,8 @@
 # AngularAppOfApps
 
+https://medium.com/disney-streaming/combining-multiple-angular-applications-into-a-single-one-e87d530d6527
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.*.
 
 ## Development server
